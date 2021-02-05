@@ -1,0 +1,102 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: animeBG 5s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animeBG {
+    0% {background-position: 0%;}
+    100% {background-position: 100%;}
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+nav{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(45deg, #1F33C7, #266e1c, #7623d5, #d52349);
+    background-size: 500% 500%;
+    animation: animeBG 5s linear infinite;
+    animation-direction: alternate;
+    position: fixed;
+}
+.anasayfalogosu {
+    margin: 0 0 0 50px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.anasayfalogosu img {
+    opacity: 0.5;
+}
+.anasayfalogosu img:hover {
+    opacity: 1;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+span {
+    color: #9BA3E5;
+    display: block;
+}
+span:hover{
+    color: #CA9BE5;
+}
+.anasayfatusu {
+    float: right;
+    margin: 47px 0 0 0; 
+    font-size: 20px;
+}
+.hakkımızdatusu {
+    float: right;
+    margin: 50px 50px 0 50px;
+    font-size: 18px;
+}
+.templatestusu {
+    float: right;
+    margin: 50px 0 0 50px; 
+    font-size: 18px;
+}
+.yazilimdersleri {
+    float: right;
+    margin: 50px 0 0 50px;
+    font-size: 18px;
+}
+.projelerimiz {
+    float: right;
+    margin: 50px 0 0 50px;
+    font-size: 18px;
+}
+.icerikalanı{
+    width: 100%;
+    height: auto;
+    margin: 125px 0 0 0;
+    float: left;
+}
+.footer{
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.footeryazi{
+    font-family: Tahoma, Helvetica, sans-serif;
+    color: #B4B4B4;
+    font-size: 15px;
+}
+.footercizgi{
+    width: 85%;
+    height: 1px;
+    margin: 0 auto 20px auto;
+}
+
