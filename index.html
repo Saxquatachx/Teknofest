@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head lang="tr">
-        <meta charset="utf-8">
-        <title>TechSBL</title>
-        <script src="JS/javascript.js"></script>
-        <link rel="stylesheet" href="./CSS/stil.css">
-    </head>
-    <body>
-        <div>
-            <nav>
-                <div class="anasayfalogosu"><a href="http://techsbldeneme1.cf"><img src="https://cdn.discordapp.com/attachments/796336018990039080/807226442500145162/navageliceklogo.fw.png"/></a></div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Çelebi</title>
 
-                <div class="hakkımızdatusu">
-                    <a href="http://hakkimizda.techsbldeneme1.cf"><span>Hakkımızda</span></a>
-                </div>
-                <div class="templatestusu">
-                    <a href="http://tasarimlarimiz.techsbldeneme1.cf"><span>Tasarımlarımız</span></a>
-                </div>
-                <div class="yazilimdersleri">
-                    <a href="http://yazilimdersleri.techsbldeneme1.cf"><span>Yazılım Dersleri</span></a>
-                </div>
-                <div class="projelerimiz">
-                    <a href="http://projelerimiz.techsbldeneme1.cf"><span>Projelerimiz</span></a>
-                </div>
-                <div class="anasayfatusu">
-                    <a href="http://techsbldeneme1.cf"><span>Anasayfa</span></a>
-                </div>
-            </nav>
-            <div style="clear: both;"></div>
-            <div class="icerikalanı"></div>
-            <div class="footer">
-                <hr class="footercizgi" color="#B4B4B4">
-                <span class="footeryazi">© Tüm Hakları Saklıdır | Created by TechSBL</span>
-            </div>
+  <script src="js/main.js"></script>
+  <script src="js/sesliasistan.js"></script>
+  <script src="js/xhr.js"></script>
+  <script src="js/javascript.js"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="anasayfayazi"><a href="">Ana Sayfa</a></div>
+    <div class="asistanamasesli"><a href="#asistansesli">Sesli Asistan</a></div>
+  </nav>
+
+  <div class="container">
+    <h1>Çelebi
+      <span class="txt-type" data-wait="3000" data-words='["Sesli Asistan", "Voice Assistant"]'></span>
+    </h1>
+    <h2>Web Sitemize Hoş Geldiniz</h2>
+  </div>  
+
+
+  <div class="buyukdiv">
+
+    <div class="icerikalanı">
+
+        <div class="esas">
+            <iframe id="harita" src="https://www.google.com/maps?output=embed&q=Türkiye" width="100%" height="450" frameborder="0" style="border:0;margin-bottom:10px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </body>
+
+        <div class="sesliasistan">
+            <a name="asistansesli"><button id="btn" onclick='recognition.start()'>Sesli Asistan</button></a>
+            <p id="result"></p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <hr class="footercizgi" color="#B4B4B4">
+        <span class="footeryazi">© Tüm Hakları Saklıdır | Created by TechSBL</span>
+    </div>
+
+</div>
+
+</body>
 </html>
